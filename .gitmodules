@@ -1,3 +1,6 @@
 [submodule "homework/hw1"]
 	path = homework/hw1
 	url = https://github.com/njasi/UNM-CS512-HW1.git
+[submodule "homework/hw2"]
+	path = homework/hw2
+	url = https://github.com/njasi/UNM-CS512-HW2.git
