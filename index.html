@@ -1,42 +1,82 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>UNM CS 512</title>
-    <style>
-      body {
-        background: #111;
-        color: #ccc;
-        font-family: monospace;
-      }
 
-      a {
-        color: #0f0;
-      }
-
-      a:hover{
-        color: rgb(0, 211, 0);
-      }
-
-      a:visited{
-        color: rgb(0, 175, 0);
-      }
-    </style>
+    <link rel="stylesheet" href="./styles.css"></link>
+    <script src="./index.js" defer></script>
   </head>
-  <body>
-    <h2>UNM CS 512 <small>Fall 2026</small></h2>
-    <p>
-      A listing of my homework / projects from UNM CS512 introduction to computer
-      graphics.
-    </p>
-    <p>TODO update the styles and blurb</p>
 
-    <h3>Homework</h3>
-    <ul>
-      <a href="/homework/hw1/">Homework 1 (Glass Shatter)</a>
-    </ul>
-    <ul>
-      <a href="/homework/hw2/">Homework 2 (Glass Shatter, linear transformation edition)</a>
-    </ul>
+  <body>
+    <main>
+      <h2>
+        UNM CS 512
+        <small>Fall 2026</small>
+      </h2>
+
+      <p class="intro">
+        A listing of my homework and projects from <a href="https://cs.unm.edu/~zhuwang/teaching/">UNM CS 512: Introduction toComputer Graphics</a>.
+      </p>
+
+      <h3>Homework</h3>
+
+      <ul class="project-list">
+        <li>
+          <a class="project-card" href="./homework/hw1/">
+            <div class="project-info">
+              <div class="project-number">Homework 1</div>
+              <h4 class="project-title">Glass Shatter</h4>
+              <p class="project-description">
+                Introduction to rendering and animation through a simple glass
+                shattering effect.
+              </p>
+            </div>
+
+            <div class="project-thumbnail">
+              <video
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                poster="./media/hw1-preview.jpg"
+              >
+                <source src="./media/hw1-preview.mp4" type="video/mp4" />
+              </video>
+              <span class="play-label">Preview</span>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a class="project-card" href="./homework/hw2/">
+            <div class="project-info">
+              <div class="project-number">Homework 2</div>
+              <h4 class="project-title">
+                Glass Shatter: Linear Transformation Edition
+              </h4>
+              <p class="project-description">
+                Continuation of the glass shatter animation using linear
+                transformations and matrix operations to drive the animation.
+              </p>
+            </div>
+
+            <div class="project-thumbnail">
+              <video
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                poster="./media/hw2-preview.jpg"
+              >
+                <source src="./media/hw2-preview.mp4" type="video/mp4" />
+              </video>
+              <span class="play-label">Preview</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </main>
   </body>
 </html>
