@@ -8,3 +8,7 @@
 	path = homework/hw3
 	url = https://github.com/njasi/UNM-CS512-HW3.git
 	branch = gh-pages
+[submodule "projects/sp1"]
+	path = projects/sp1
+	url = https://github.com/njasi/UNM-CS512-OBJ-LOADER.git
+	branch = gh-pages
