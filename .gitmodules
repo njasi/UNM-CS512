@@ -15,4 +15,4 @@
 [submodule "homework/hw4"]
 	path = homework/hw4
 	url = https://github.com/njasi/UNM-CS512-HW4.git
-	branch = gh-pages
+	branch = bugfix/first-load
