@@ -16,3 +16,6 @@
 	path = homework/hw4
 	url = https://github.com/njasi/UNM-CS512-HW4.git
 	branch = bugfix/first-load
+[submodule "common"]
+	path = common
+	url = https://github.com/njasi/UNM-CS512-COMMON.git
