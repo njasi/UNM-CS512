@@ -22,4 +22,4 @@
 [submodule "homework/hw5"]
 	path = homework/hw5
 	url = https://github.com/njasi/UNM-CS512-HW5.git
-	branch = gh-pages
+	branch = bugfix/qol
