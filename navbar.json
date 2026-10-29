@@ -15,6 +15,10 @@
         {
             "label": "HW4: BVH Loader",
             "link": "https://cs512.njasi.com/homework/hw4"
+        },
+        {
+            "label": "HW5: Primitive Surfers",
+            "link": "https://cs512.njasi.com/homework/hw5"
         }
     ],
     "projects": [
