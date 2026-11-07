@@ -27,3 +27,7 @@
 	path = projects/sp0
 	url = https://github.com/njasi/UNM-CS512-PotatoEngine.git
 	branch = gh-pages
+[submodule "hw6"]
+	path = homework/hw6
+	url = https://github.com/njasi/UNM-CS512-HW6.git
+	branch = gh-pages
