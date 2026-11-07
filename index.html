@@ -1,294 +1,226 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>UNM CS 512</title>
-    <link rel="stylesheet" href="./common/styles.css">
-    <link rel="stylesheet" href="./common/navbar.css">
-    <script src="./common/navbar.js" defer></script>
-    <script src="./index.js" defer></script>
-  </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-surface">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/">UNM CS 512</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Homework
-              </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-                id="dropdown-homework"
-              ></ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Side Projects
-              </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-                id="dropdown-projects"
-              ></ul>
-            </li>
-          </ul>
-        </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UNM CS 512</title>
+  <link rel="stylesheet" href="./common/styles.css">
+  <link rel="stylesheet" href="./common/navbar.css">
+  <script src="./common/navbar.js" defer></script>
+  <script src="./index.js" defer></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-surface">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">UNM CS 512</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Homework
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="dropdown-homework"></ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Side Projects
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="dropdown-projects"></ul>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <main>
-      <h1>
-        Introduction to Computer Graphics
-        <br><small>UNM CS 512 Fall 2026</small>
-      </h1>
+    </div>
+  </nav>
+  <main>
+    <h1>
+      Introduction to Computer Graphics
+      <br><small>UNM CS 512 Fall 2026</small>
+    </h1>
 
-      <p class="intro">
-        A listing of my homework and projects from <a href="https://cs.unm.edu/~zhuwang/teaching/">UNM CS 512: Introduction to Computer Graphics</a>.
-      </p>
+    <p class="intro">
+      A listing of my homework and projects from <a href="https://cs.unm.edu/~zhuwang/teaching/">UNM CS 512:
+        Introduction to Computer Graphics</a>.
+    </p>
 
-      <h2>Homework</h2>
+    <h2>Homework</h2>
 
-      <ul class="project-list">
-        <li>
-          <a class="project-card" href="./homework/hw1/">
-            <div class="project-info">
-              <div class="project-number">Homework 1</div>
-              <h4 class="project-title">Glass Shatter</h4>
-              <p class="project-description">
-                Introduction to rendering and animation through a simple glass
-                shattering effect.
-              </p>
-            </div>
+    <ul class="project-list">
+      <li>
+        <a class="project-card" href="./homework/hw1/">
+          <div class="project-info">
+            <div class="project-number">Homework 1</div>
+            <h4 class="project-title">Glass Shatter</h4>
+            <p class="project-description">
+              Introduction to rendering and animation through a simple glass
+              shattering effect.
+            </p>
+          </div>
 
-            <div class="project-thumbnail">
-              <video
-                muted
-                loop
-                playsinline
-                preload="metadata"
-                poster="./media/hw1-preview.jpg"
-              >
-                <source src="./media/hw1-preview.mp4" type="video/mp4" />
-              </video>
-              <span class="play-label">Preview</span>
-            </div>
-          </a>
-        </li>
+          <div class="project-thumbnail">
+            <video muted loop playsinline preload="metadata" poster="./media/hw1-preview.jpg">
+              <source src="./media/hw1-preview.mp4" type="video/mp4" />
+            </video>
+            <span class="play-label">Preview</span>
+          </div>
+        </a>
+      </li>
 
-        <li>
-          <a class="project-card" href="./homework/hw2/">
-            <div class="project-info">
-              <div class="project-number">Homework 2</div>
-              <h4 class="project-title">
-                Glass Shatter: Linear Transformation Edition
-              </h4>
-              <p class="project-description">
-                Continuation of the glass shatter animation using linear
-                transformations and matrix operations to drive the animation.
-              </p>
-            </div>
+      <li>
+        <a class="project-card" href="./homework/hw2/">
+          <div class="project-info">
+            <div class="project-number">Homework 2</div>
+            <h4 class="project-title">
+              Glass Shatter: Linear Transformation Edition
+            </h4>
+            <p class="project-description">
+              Continuation of the glass shatter animation using linear
+              transformations and matrix operations to drive the animation.
+            </p>
+          </div>
 
-            <div class="project-thumbnail">
-              <video
-                muted
-                loop
-                playsinline
-                preload="metadata"
-                poster="./media/hw2-preview.jpg"
-              >
-                <source src="./media/hw2-preview.mp4" type="video/mp4" />
-              </video>
-              <span class="play-label">Preview</span>
-            </div>
-          </a>
-        </li> 
+          <div class="project-thumbnail">
+            <video muted loop playsinline preload="metadata" poster="./media/hw2-preview.jpg">
+              <source src="./media/hw2-preview.mp4" type="video/mp4" />
+            </video>
+            <span class="play-label">Preview</span>
+          </div>
+        </a>
+      </li>
 
-        <li>
-          <a class="project-card" href="./homework/hw3/">
-            <div class="project-info">
-              <div class="project-number">Homework 3</div>
-              <h4 class="project-title">
-                Cannon Minigame
-              </h4>
-              <p class="project-description">
-                Showcase of Html input interactions with webgl objects in a simple minigame.
-              </p>
-            </div>
+      <li>
+        <a class="project-card" href="./homework/hw3/">
+          <div class="project-info">
+            <div class="project-number">Homework 3</div>
+            <h4 class="project-title">
+              Cannon Minigame
+            </h4>
+            <p class="project-description">
+              Showcase of Html input interactions with webgl objects in a simple minigame.
+            </p>
+          </div>
 
-            <div class="project-thumbnail">
-              <video
-                muted
-                loop
-                playsinline
-                preload="metadata"
-                poster="./media/hw3-preview.png"
-              >
-                <source src="./media/hw3-preview.mp4" type="video/mp4" />
-              </video>
-              <span class="play-label">Preview</span>
-            </div>
-          </a>
-        </li>
+          <div class="project-thumbnail">
+            <video muted loop playsinline preload="metadata" poster="./media/hw3-preview.png">
+              <source src="./media/hw3-preview.mp4" type="video/mp4" />
+            </video>
+            <span class="play-label">Preview</span>
+          </div>
+        </a>
+      </li>
 
-        <li>
-          <a class="project-card" href="./homework/hw4/">
-            <div class="project-info">
-              <div class="project-number">Homework 4</div>
-              <h4 class="project-title">
-                BioVision Hierarchy File Loader 
-              </h4>
-              <p class="project-description">
-                We leverage hierarchal modeling to represent the joint structure and animation within .bvh files. 
-              </p>
-            </div>
+      <li>
+        <a class="project-card" href="./homework/hw4/">
+          <div class="project-info">
+            <div class="project-number">Homework 4</div>
+            <h4 class="project-title">
+              BioVision Hierarchy File Loader
+            </h4>
+            <p class="project-description">
+              We leverage hierarchal modeling to represent the joint structure and animation within .bvh files.
+            </p>
+          </div>
 
-            <div class="project-thumbnail">
-              <video
-                muted
-                loop
-                playsinline
-                preload="metadata"
-                poster="./media/hw4-preview.jpg"
-              >
-                <source src="./media/hw4-preview.mp4" type="video/mp4" />
-              </video>
-              <span class="play-label">Preview</span>
-            </div>
-          </a>
-        </li>
+          <div class="project-thumbnail">
+            <video muted loop playsinline preload="metadata" poster="./media/hw4-preview.jpg">
+              <source src="./media/hw4-preview.mp4" type="video/mp4" />
+            </video>
+            <span class="play-label">Preview</span>
+          </div>
+        </a>
+      </li>
 
 
-        <li>
-          <a class="project-card" href="./homework/hw5/">
-            <div class="project-info">
-              <div class="project-number">Homework 5</div>
-              <h4 class="project-title">
-                Primitive Surfers
-              </h4>
-              <p class="project-description">
-                Parody of the classic garbage mobile game Subway Surfers...
-              </p>
-            </div>
+      <li>
+        <a class="project-card" href="./homework/hw5/">
+          <div class="project-info">
+            <div class="project-number">Homework 5</div>
+            <h4 class="project-title">
+              Primitive Surfers
+            </h4>
+            <p class="project-description">
+              Parody of the classic garbage mobile game Subway Surfers...
+            </p>
+          </div>
 
-            <div class="project-thumbnail">
-              <video
-                muted
-                loop
-                playsinline
-                preload="metadata"
-                poster="./media/hw5-preview.jpg"
-              >
-                <source src="./media/hw5-preview.mp4" type="video/mp4" />
-              </video>
-              <span class="play-label">Preview</span>
-            </div>
-          </a>
-        </li>
+          <div class="project-thumbnail">
+            <video muted loop playsinline preload="metadata" poster="./media/hw5-preview.jpg">
+              <source src="./media/hw5-preview.mp4" type="video/mp4" />
+            </video>
+            <span class="play-label">Preview</span>
+          </div>
+        </a>
+      </li>
 
 
-        <li>
-          <a class="project-card" href="./homework/hw6/">
-            <div class="project-info">
-              <div class="project-number">Homework 6</div>
-              <h4 class="project-title">
-                Wind Waker
-              </h4>
-              <p class="project-description">
-                We recreate the classic cartoon ocean water material from The Wind Waker.
-              </p>
-            </div>
+      <li>
+        <a class="project-card" href="./homework/hw6/">
+          <div class="project-info">
+            <div class="project-number">Homework 6</div>
+            <h4 class="project-title">
+              Wind Waker Water
+            </h4>
+            <p class="project-description">
+              We recreate the classic cartoon ocean water material from The Legend of Zelda: The Wind Waker.
+            </p>
+          </div>
 
-            <div class="project-thumbnail">
-              <video
-                muted
-                loop
-                playsinline
-                preload="metadata"
-                poster="./media/hw6-preview.jpg"
-              >
-                <source src="./media/hw6-preview.mp4" type="video/mp4" />
-              </video>
-              <span class="play-label">Preview</span>
-            </div>
-          </a>
-        </li>
-      </ul>
+          <div class="project-thumbnail">
+            <video muted loop playsinline preload="metadata" poster="./media/hw6-preview.jpg">
+              <source src="./media/hw6-preview.mp4" type="video/mp4" />
+            </video>
+            <span class="play-label">Preview</span>
+          </div>
+        </a>
+      </li>
+    </ul>
 
-      <h2>Side Projects</h2>
-      <ul class="project-list">
-        <li>
-          <a class="project-card" href="./projects/sp0/">
-            <div class="project-info">
-              <div class="project-number">Sideproject 0</div>
-              <h4 class="project-title">Potato Engine</h4>
-              <p class="project-description">
-                Simple scene management "engine" created while working on UNM CS512 homework.
-              </p>
-            </div>
+    <h2>Side Projects</h2>
+    <ul class="project-list">
+      <li>
+        <a class="project-card" href="./projects/sp0/">
+          <div class="project-info">
+            <div class="project-number">Sideproject 0</div>
+            <h4 class="project-title">Potato Engine</h4>
+            <p class="project-description">
+              Simple scene management "engine" created while working on UNM CS512 homework.
+            </p>
+          </div>
 
-            <div class="project-thumbnail">
-              <img
-               src="./media/gh.png"
-              >
-              <span class="play-label">Source</span>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a class="project-card" href="./projects/sp1/">
-            <div class="project-info">
-              <div class="project-number">Sideproject 1</div>
-              <h4 class="project-title">.obj Loader Demo</h4>
-              <p class="project-description">
-                Simple demo where we load an .obj file.
-              </p>
-            </div>
+          <div class="project-thumbnail">
+            <img src="./media/gh.png">
+            <span class="play-label">Source</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a class="project-card" href="./projects/sp1/">
+          <div class="project-info">
+            <div class="project-number">Sideproject 1</div>
+            <h4 class="project-title">.obj Loader Demo</h4>
+            <p class="project-description">
+              Simple demo where we load an .obj file.
+            </p>
+          </div>
 
-            <div class="project-thumbnail">
-              <video
-                muted
-                loop
-                playsinline
-                preload="metadata"
-                poster="./media/sp1-preview.jpg"
-              >
-                <source src="./media/sp1-preview.mp4" type="video/mp4" />
-              </video>
-              <span class="play-label">Preview</span>
-            </div>
-          </a>
-        </li>
-      </ul>
-    </main>
-    <footer></footer>
-  </body>
+          <div class="project-thumbnail">
+            <video muted loop playsinline preload="metadata" poster="./media/sp1-preview.jpg">
+              <source src="./media/sp1-preview.mp4" type="video/mp4" />
+            </video>
+            <span class="play-label">Preview</span>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </main>
+  <footer></footer>
+</body>
+
 </html>
