@@ -31,3 +31,7 @@
 	path = homework/hw6
 	url = https://github.com/njasi/UNM-CS512-HW6.git
 	branch = gh-pages
+[submodule "homework/hw7"]
+	path = homework/hw7
+	url = https://github.com/njasi/UNM-CS512-HW7.git
+	branch = gh-pages
